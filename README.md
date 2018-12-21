@@ -1,6 +1,6 @@
 # pdb-ss-redo
 calculates fraction of secondary structure PDB model from the DSSP fasta output (available on RCSB). 
-This is useful when truncating certain regions of a PDB model and want to see what the resulting secondary structure populations are. 
+This is useful when truncating certain regions of a PDB model and want to see what are the resulting secondary structure populations. 
 
 
 This mathematica package can be loaded in a notebook:
