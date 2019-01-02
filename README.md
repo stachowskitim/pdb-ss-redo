@@ -16,7 +16,7 @@ Once in the working directory, `SScalc` is executed after defining the name of t
 SScalc["6F7G.txt"]
 ```
 
-The output gives you the total number of amino acids (as a check), and the populations of each secondary structure:
+The output gives you the total number of amino acids (as a check), and the percentage of each secondary structure:
 
 ```
 Amino Acids    103
