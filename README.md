@@ -10,7 +10,7 @@ This mathematica package can be loaded in a notebook:
 Needs["SScalc`"]
 ```
 
-Once in the working directory, `SScalc` is executed after defining the file name:
+Once in the working directory, `SScalc` is executed after defining the name of the DSSP file in fasta format:
 
 ```
 SScalc["6F7G.txt"]
