@@ -1,6 +1,6 @@
 (* ::Package:: *)
 
-BeginPackage["Sscalc`"]
+BeginPackage["SScalc`"]
 
 sscalc::usage="Calculates secondary structure content from fasta file, data"
 
@@ -22,8 +22,7 @@ strandcount = StringCount[sslist,"E"]//Total;
 turncount = StringCount[sslist,"T"]//Total;
 bendcount = StringCount[sslist,"S"]//Total;
 frac = N@{{"Helix",helixcount/aacount},{"Strand",strandcount/aacount},{"Turn",turncount/aacount},{"Bend",bendcount/aacount}};
-Print["Amino Acids"ToString[aacount]];
-Do[Print/@frac,1];
+TableForm[PrependTo[frac,{"Amino Acids",aacount}]]//Print;
 ];
 
 
