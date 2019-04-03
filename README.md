@@ -1,4 +1,4 @@
-# pdb-ss-redo
+# ss-calc
 calculates fraction of secondary structure PDB model using the DSSP fasta output (available on RCSB). 
 This is useful for (1) comparing circular dichroism results to theoretical changes in the protein or
 (2) what the secondary structure fractions are with certain regions truncated. 
